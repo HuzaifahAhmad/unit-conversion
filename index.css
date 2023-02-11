@@ -1,0 +1,86 @@
+body {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(#dee2e6, #cbc0d3);
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+#hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 10px auto 0px auto;
+    color: white;
+    background: #6943FF;
+    padding: 0px 10px;
+    padding-top: 10px;
+    border-bottom: none;
+
+}
+
+#input-from-user {
+    width: 75px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    border: 1px solid #B295FF;
+    font-size: 30px;
+    margin: 10px auto 20px auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+#convert-btn {
+    width: 100px;
+    padding: 10px 20px;
+    margin: 10px auto 30px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+#convert-btn:active {
+    background: gray;
+    color: white;
+}
+
+#convert-btn:hover {
+    cursor: pointer;
+}
+
+#converted-section {
+    width: 400px;
+    margin: 0px auto 10px auto;
+    padding: 0px 10px;
+    background-color: #1F2937;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: none;
+
+}
+
+.metric-section {
+    background-color: #273549;
+    font-size: 15px;
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    margin: 10px 10px;
+    white-space: nowrap;
+    text-align: center;
+    color: #CCC1FF;
+}
+
+#length-section, #volume-section, #mass-section {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
